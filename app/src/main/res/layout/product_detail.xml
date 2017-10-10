@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/ScrollView">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  style="@style/EditorMainLinearLayout">
+
+        <LinearLayout
+            style="@style/ProductNameLinearLayout">
+
+            <TextView
+                style="@style/ProductAttributeTextView"
+                android:text="@string/product_name"/>
+
+            <EditText
+                android:id="@+id/edit_product_name"
+                style="@style/ProductNameEditText"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/ProductAttributeLinearLayout">
+
+            <TextView
+                style="@style/ProductAttributeTextView"
+                android:text="@string/product_description"/>
+
+            <EditText
+                android:id="@+id/edit_description"
+                style="@style/DescriptionEditText"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/ProductAttributeLinearLayout">
+
+            <TextView
+                style="@style/ProductAttributeTextView"
+                android:text="@string/product_price"/>
+
+            <EditText
+                android:id="@+id/edit_price"
+                style="@style/PriceEditText"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/ProductAttributeLinearLayout">
+
+            <TextView
+                style="@style/ProductAttributeTextView"
+                android:layout_gravity="center_vertical"
+                android:text="@string/product_quantity"/>
+
+            <LinearLayout
+                style="@style/QuantityLayout">
+
+                <ImageView
+                    android:id="@+id/button_decrease_stock"
+                    style="@style/ChangeQuantityButtons"
+                    android:src="@drawable/ic_remove_circle_white_24dp"/>
+
+                <EditText
+                    android:id="@+id/edit_stock"
+                    style="@style/QuantityEditText"/>
+
+                <ImageView
+                    android:id="@+id/button_increase_stock"
+                    style="@style/ChangeQuantityButtons"
+                    android:src="@drawable/ic_add_circle_white_24dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/ProductAttributeLinearLayout">
+
+            <TextView
+                style="@style/ProductAttributeTextView"
+                android:text="@string/supplier_name"/>
+
+            <EditText
+                android:id="@+id/edit_supplier_name"
+                style="@style/ProductNameEditText"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/ProductAttributeLinearLayout">
+
+            <TextView
+                style="@style/ProductAttributeTextView"
+                android:text="@string/supplier_phone"/>
+
+            <RelativeLayout
+                style="@style/SupplierRelativeLayout">
+
+                <ImageView
+                    android:id="@+id/image_phone"
+                    style="@style/ContactImageView"
+                    android:src="@drawable/ic_phone_white_24dp"/>
+
+                <EditText
+                    android:id="@+id/edit_phone"
+                    style="@style/PhoneEditText"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/ProductAttributeLinearLayout">
+
+            <TextView
+                style="@style/ProductAttributeTextView"
+                android:text="@string/supplier_email"/>
+
+            <RelativeLayout
+                style="@style/SupplierRelativeLayout">
+
+                <ImageView
+                    android:id="@+id/image_email"
+                    style="@style/ContactImageView"
+                    android:src="@drawable/ic_email_white_24dp"/>
+
+                <EditText
+                    android:id="@+id/edit_email"
+                    style="@style/EmailEditText"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/ProductAttributeLinearLayout">
+
+            <LinearLayout
+                style="@style/AddImageLayout">
+
+                <TextView
+                    style="@style/AddImageTextView"
+                    android:text="@string/add_image_button"/>
+
+                <ImageButton
+                    android:id="@+id/button_add_photo"
+                    style="@style/AddImageButton"
+                    android:src="@drawable/ic_add_a_photo_white_24dp"/>
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/image_product"
+                style="@style/SupplierRelativeLayout"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

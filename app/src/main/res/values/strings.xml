@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Inventory App</string>
+
+    <!-- Product details -->
+
+    <string name="product_name">Product Name</string>
+    <string name="product_description">Description</string>
+    <string name="product_price">Price (\u20ac)</string>
+    <string name="product_quantity">Stock</string>
+    <string name="supplier_name">Supplier Name</string>
+    <string name="supplier_phone">Phone</string>
+    <string name="supplier_email">Email Address</string>
+    <string name="add_image_button">Add Image</string>
+    <string name="empty_text_view">The store is empty"\n"Get started by adding a product</string>
+
+    <!-- Menu actions -->
+
+    <string name="insert_dummy_data">Insert dummy data</string>
+    <string name="delete_all_entries">Delete all products</string>
+    <string name="action_save">Save</string>
+    <string name="action_delete">Delete</string>
+    <string name="delete">Delete</string>
+
+    <!-- Dialog messages and button texts-->
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+    <string name="discard">Discard</string>
+    <string name="keep_editing">Keep Editing</string>
+    <string name="delete_dialog_msg">Delete this product?</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- Toast messages in editor -->
+    <string name="editor_insert_product_successful">Product saved</string>
+    <string name="editor_insert_product_failed">Error with saving product</string>
+    <string name="editor_update_product_successful">Product updated</string>
+    <string name="editor_update_product_failed">Error with updating product</string>
+    <string name="editor_delete_product_failed">Error with deleting product</string>
+    <string name="editor_delete_product_successful">Product deleted</string>
+
+    <!-- Titles for the activity -->
+    <string name="editor_activity_title_new_product">Add a Product</string>
+    <string name="editor_activity_title_edit_product">Edit a Product</string>
+
+    <!-- Email subject -->
+    <string name="order_supplies_by_email">The order of </string>
+
+    <!-- Toast message prompting input of correct information -->
+
+    <string name="toast_for_name">Product name is required</string>
+    <string name="toast_for_price">Price is required</string>
+    <string name="toast_for_supplier_name">Supplier is required</string>
+    <string name="toast_for_email">Email address is required</string>
+
+</resources>
+

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              style="@style/ListItemRootLayout">
+
+    <TextView
+        android:id="@+id/product_name"
+        style="@style/ProductNameTextView"
+        tools:text="Product name"/>
+
+    <LinearLayout
+        style="@style/PriceAndQuantityLayouts">
+
+        <ImageView
+            style="@style/PriceAndQuantityIcons"
+            android:src="@drawable/ic_euro_symbol_white_24dp"
+            tools:ignore="ContentDescription"/>
+
+        <TextView
+            android:id="@+id/product_price"
+            style="@style/PriceAndQuantityTextViews"
+            tools:text="10.99"/>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/PriceAndQuantityLayouts">
+
+        <ImageView
+            style="@style/PriceAndQuantityIcons"
+            android:src="@drawable/ic_dashboard_white_24dp"
+            tools:ignore="ContentDescription"/>
+
+        <TextView
+            android:id="@+id/product_quantity"
+            style="@style/PriceAndQuantityTextViews"
+            tools:text="5"/>
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <ImageButton
+            android:id="@+id/sale_button"
+            style="@style/SaleButton"
+            android:src="@drawable/ic_shopping_basket_white_24dp"/>
+    </FrameLayout>
+
+</LinearLayout>
